@@ -44,6 +44,10 @@ nav ul li a {
   padding: 5px 10px;
 }
 
+nav ul li a:hover {
+  background-color: #888;
+}
+
 /* Secciones */
 section {
   padding: 40px 0;
@@ -64,6 +68,11 @@ img {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: translateY(-5px);
 }
 
 ul {

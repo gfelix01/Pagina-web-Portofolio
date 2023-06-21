@@ -29,4 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
+  window.addEventListener('DOMContentLoaded', function() {
+    var descripcion = document.getElementById('descripcion');
+    descripcion.style.opacity = '2'; // Cambia la opacidad a 1
+  });
   

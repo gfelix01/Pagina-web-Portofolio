@@ -130,6 +130,6 @@ footer {
   text-align: center;
 }
 #descripcion {
-  opacity: 0; /* Inicialmente oculto */
-  transition: opacity 1s ease-in-out; /* Transición de opacidad con duración de 1 segundo */
+  opacity: 05; /* Inicialmente oculto */
+  transition: opacity 15s ease-in-out; /* Transición de opacidad con duración de 1 segundo */
 }

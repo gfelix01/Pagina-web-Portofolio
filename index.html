@@ -1,93 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-*********" crossorigin="anonymous" />
+<head>
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-*********" crossorigin="anonymous" />
+</head>
+<body>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-  </head>
-  <body>
-    
-    <!-- Resto de tu código HTML -->
-    <header>
-      <h1>Portafolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#sobre-mi">Sobre mi</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <section id="sobre-mi">
-      <h2>Sobre mi</h2>
-      <img src="fotos/yo.jpg" width="20%" alt="Foto de perfil">
-
-      
-      <p id="descripcion">Hola, soy Gabriel, un apasionado desarrollador web con experiencia en HTML, CSS, JavaScript, PHP y MySQL. Me encanta trabajar en equipo y aprender cosas nuevas cada día. Si tienes un proyecto interesante, ¡no dudes en contactarme!</p>
-    </section>
-    
-    
-    <section id="proyectos">
-      <h2>Proyectos</h2>
+  <header>
+    <nav>
       <ul>
-        <li>
-          <h3>Login</h3>
-          <img src="fotos/login.png" width="50%"  alt="Proyecto 1">
-          <p>Login utilizando HTML,CSS,JavaScript y Bootstrap
-            Este es un proyecto de login que desarrollé utilizando HTML, CSS y JavaScript. Proporciona un formulario de inicio de sesión simple con validación de usuario y contraseña. Los usuarios deben ingresar un nombre de usuario y una contraseña válidos para acceder. El formulario utiliza estilos CSS personalizados y también incluye iconos de usuario y contraseña para una mejor experiencia visual. El código JavaScript maneja la validación del formulario y evita el envío predeterminado. Además, se pueden agregar lógicas adicionales, como el envío de datos a un servidor para la autenticación. Siéntete libre de explorar el código y utilizarlo como punto de partida para tu propio proyecto de autenticación. ¡Estoy abierto a contribuciones y mejoras para hacerlo aún más robusto y seguro!"
-            .</p>
-            <a href="https://github.com/gfelix01/Login--Forms">Link del repositorio</a>
-        </li> 
-        <li>
-          <h3>Pagina de Documentacion Java</h3>
-          <img src="fotos/proyecto Documentacion Java.png" width="50%" alt="Proyecto 2">
-          <p>La página web es una documentación sobre el lenguaje de programación Java. Está estructurada en HTML y CSS, con una barra de navegación que permite acceder rápidamente a diferentes secciones. Contiene información sobre cómo comenzar con Java, el punto de entrada en un programa, cómo imprimir por consola, la declaración de funciones (métodos) y los conceptos básicos de la programación orientada a objetos. El contenido se presenta de manera clara y ordenada, utilizando ejemplos de código y explicaciones concisas..</p>
-          <a href="https://github.com/gfelix01/Documentation-page">Link del repositorio</a>
-        </li>
-        <li>
-          <h3>Sistema de asistencia C# </h3>
-          <img src="fotos/sistema de asistencia.png"  width="50%" alt="Proyecto 3">
-          <img src="fotos/personal.png" width="50%" alt="Proyecto 3">
-          <p>
-            El proyecto de gestión de clientes con 3 capas de datos, lógica y presentación ha sido desarrollado con el objetivo de facilitar y optimizar la gestión de clientes en una organización. Esta solución se basa en una arquitectura escalable y modular, que permite una mayor flexibilidad y capacidad de adaptación a medida que crecen las necesidades del negocio. 
-          </p>
-          <a href="https://github.com/gfelix01/Sistema-asistencia">Link del repositorio</a>
-        </li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
-    </section>
-    
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <form method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje"></textarea><br>
-        <input type="submit" value="Enviar">
-        <button id="myButton" class="btn btn-primary animated-button">Haz clic aquí</button>
-      </form>
-    </section>
-  
-      <footer>
-        <p>&copy; 2023 Gabriel Felix. Todos los derechos reservados.</p>
-        <div class="redes-sociales">
-          <a href="https://www.instagram.com/felix5637_/"><i class="fab fa-instagram"></i></a>
-          <a href="https://web.facebook.com/gabrielarturo.felixpaez"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.linkedin.com/in/arturo-felix-dssn20/"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/gfelix01"><i class="fab fa-github"></i></a>
-          
-        </div>
-      </footer>
-      
-    
-    
-      
-  </body>
+    </nav>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <img src="fotos/yo.jpg" width="20%" alt="Foto de perfil">
+    <p id="descripcion">Hola, soy Gabriel, un apasionado desarrollador web con experiencia en HTML, CSS, JavaScript, PHP y MySQL. Me encanta trabajar en equipo y aprender cosas nuevas cada día. Si tienes un proyecto interesante, ¡no dudes en contactarme!</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+      <li>
+        <h3>Login</h3>
+        <img src="fotos/login.png" width="50%" alt="Proyecto 1">
+        <p>Login utilizando HTML, CSS, JavaScript y Bootstrap. Este es un proyecto de inicio de sesión que desarrollé utilizando tecnologías web comunes. Proporciona un formulario de inicio de sesión simple con validación de usuario y contraseña. Los usuarios deben ingresar un nombre de usuario y una contraseña válidos para acceder. El formulario utiliza estilos CSS personalizados y también incluye iconos de usuario y contraseña para una mejor experiencia visual. El código JavaScript maneja la validación del formulario y evita el envío predeterminado. Siéntete libre de explorar el código y utilizarlo como punto de partida para tu propio proyecto de autenticación. ¡Estoy abierto a contribuciones y mejoras para hacerlo aún más robusto y seguro!</p>
+        <a href="https://github.com/gfelix01/Login--Forms">Link del repositorio</a>
+      </li>
+      <li>
+        <h3>Página de Documentación Java</h3>
+        <img src="fotos/proyecto Documentacion Java.png" width="50%" alt="Proyecto 2">
+        <p>Esta página web es una documentación sobre el lenguaje de programación Java. Está estructurada en HTML y CSS, con una barra de navegación que permite acceder rápidamente a diferentes secciones. Contiene información sobre cómo comenzar con Java, el punto de entrada en un programa, cómo imprimir por consola, la declaración de funciones (métodos) y los conceptos básicos de la programación orientada a objetos. El contenido se presenta de manera clara y ordenada, utilizando ejemplos de código y explicaciones concisas.</p>
+        <a href="https://github.com/gfelix01/Documentation-page">Link del repositorio</a>
+      </li>
+      <li>
+        <h3>Sistema de Asistencia C#</h3>
+        <img src="fotos/sistema de asistencia.png" width="50%" alt="Proyecto 3">
+        <img src="fotos/personal.png" width="50%" alt="Proyecto 3">
+        <p>El proyecto de gestión de clientes con 3 capas de datos, lógica y presentación ha sido desarrollado con el objetivo de facilitar y optimizar la gestión de clientes en una organización. Esta solución se basa en una arquitectura escalable y modular, que permite una mayor flexibilidad y capacidad de adaptación a medida que crecen las necesidades del negocio.</p>
+        <a href="https://github.com/gfelix01/Sistema-asistencia">Link del repositorio</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea><br>
+      <input type="submit" value="Enviar">
+      <button id="myButton" class="btn btn-primary animated-button">Haz clic aquí</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Gabriel Felix. Todos los derechos reservados.</p>
+    <div class="redes-sociales">
+      <a href="https://www.instagram.com/felix5637_/"><i class="fab fa-instagram"></i></a>
+      <a href="https://web.facebook.com/gabrielarturo.felixpaez"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/arturo-felix-dssn20/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/gfelix01"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>

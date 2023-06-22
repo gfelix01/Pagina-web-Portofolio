@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   var submitButton = document.getElementById("submitButton");
-  
+
   submitButton.addEventListener("click", function(event) {
     event.preventDefault(); // Evitar el envío predeterminado del formulario
 
@@ -26,22 +26,23 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     .then(function(response) {
       if (response.ok) {
-        alert("Datos enviados correctamente");
-        // Restablecer los campos del formulario después de enviarlos con éxito
-        document.getElementById("nombre").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("mensaje").value = "";
+        return response.text(); // Devuelve la respuesta como texto
       } else {
-        alert("Ha ocurrido un error al enviar los datos");
+        throw new Error("Error en la respuesta del servidor");
       }
+    })
+    .then(function(message) {
+      alert(message); // Muestra el mensaje de éxito enviado desde el servidor
+      // Restablecer los campos del formulario después de enviarlos con éxito
+      document.getElementById("nombre").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("mensaje").value = "";
     })
     .catch(function(error) {
       alert("Ha ocurrido un error en la solicitud AJAX: " + error.message);
     });
   });
-});
 
-window.addEventListener('DOMContentLoaded', function() {
   var descripcion = document.getElementById('descripcion');
-  descripcion.style.opacity = '2'; // Cambia la opacidad a 1
+  descripcion.style.opacity = '1'; // Cambia la opacidad a 1
 });

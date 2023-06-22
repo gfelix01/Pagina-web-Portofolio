@@ -1,13 +1,13 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $nombre = $_POST["nombre"];
-  $email = $_POST["email"];
-  $mensaje = $_POST["mensaje"];
+$to = "gabriel_arturo01@hotmail.com";
+$subject = "Prueba de correo";
+$message = "Este es un correo de prueba enviado desde XAMPP.";
+$headers = "gabriel_arturo01@hotmail.com";
 
-  // Aquí puedes realizar las acciones necesarias con los datos recibidos, por ejemplo, enviar un correo electrónico
-
-  // Redirige al usuario a una página de confirmación o muestra un mensaje de éxito
-  header("Location: confirmacion.html");
-  exit();
+if (mail($to, $subject, $message, $headers)) {
+  echo "Correo enviado correctamente.";
+} else {
+  echo "Error al enviar el correo.";
 }
 ?>
+

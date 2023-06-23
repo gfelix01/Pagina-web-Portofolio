@@ -50,7 +50,7 @@
 
   <section id="contacto">
     <h2>Contacto</h2>
-    <form id="contactForm" action="https://formsubmit.co/gabriel_arturo01@hotmail.com" method="POST">
+    <form id="contactForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="nombre" required>
 
@@ -65,7 +65,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2023 Gabriel_Felix. Todos los derechos reservados.</p>
+    <p>&copy; <?php echo date("Y"); ?> Gabriel_Felix. Todos los derechos reservados.</p>
     <div class="social-media">
       <a href="https://www.linkedin.com/in/gabrielfelix/" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/gfelix01" target="_blank"><i class="fab fa-github"></i></a>
@@ -73,6 +73,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="Javascript/enviar.js"></script>
 </body>
 </html>

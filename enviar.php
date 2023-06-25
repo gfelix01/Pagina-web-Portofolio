@@ -1,20 +1,22 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $nombre = $_POST["nombre"];
-  $correo = $_POST["correo"];
-  $mensaje = $_POST["mensaje"];
+  $nombre = $_POST['nombre'];
+  $correo = $_POST['correo'];
+  $mensaje = $_POST['mensaje'];
 
-  $para = "gabriel_arturo01@hotmail.com"; // Reemplaza con tu dirección de correo electrónico
-  $asunto = "Mensaje de contacto de mi portafolio";
-  $cuerpo = "Nombre: " . $nombre . "\n";
-  $cuerpo .= "Correo: " . $correo . "\n";
-  $cuerpo .= "Mensaje: " . $mensaje . "\n";
+  $destinatario = "gabriel_arturo01@.com"; // Reemplaza con tu dirección de correo electrónico
 
-  // Envía el correo
-  if (mail($para, $asunto, $cuerpo)) {
-    echo "Mensaje enviado correctamente. Gracias por contactarme, " . $nombre . "!";
+  $asunto = "Nuevo mensaje de contacto desde el portafolio";
+  $contenido = "Nombre: $nombre\n";
+  $contenido .= "Correo electrónico: $correo\n";
+  $contenido .= "Mensaje: $mensaje\n";
+
+  $headers = "From: $nombre <$correo>";
+
+  if (mail($destinatario, $asunto, $contenido, $headers)) {
+    echo "¡Gracias por tu mensaje! Pronto te contactaré.";
   } else {
-    echo "Error al enviar el mensaje. Por favor, inténtalo nuevamente.";
+    echo "Hubo un error al enviar el mensaje. Por favor, inténtalo nuevamente.";
   }
 }
 ?>

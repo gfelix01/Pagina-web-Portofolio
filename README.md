@@ -1,5 +1,5 @@
-# Portafolio
-Descripción del Repositorio: Mi Portafolio
+# Briefcase
+Repository Description: My Portfolio
 
 This repository houses my personal portfolio, a collection of my most outstanding works and projects in the field of web development. The portfolio has been carefully designed to highlight my skills, experience and creativity.
 

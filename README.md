@@ -1,31 +1,26 @@
 # Portafolio
 Descripción del Repositorio: Mi Portafolio
 
-Este repositorio alberga mi portafolio personal, una colección de mis trabajos y proyectos más destacados en el campo del desarrollo web. El portafolio ha sido diseñado cuidadosamente para resaltar mis habilidades, experiencia y creatividad.
+This repository houses my personal portfolio, a collection of my most outstanding works and projects in the field of web development. The portfolio has been carefully designed to highlight my skills, experience and creativity.
 
-En este repositorio, encontrarás una estructura organizada de archivos y carpetas que representan cada proyecto en mi portafolio. Cada proyecto incluye una descripción concisa, capturas de pantalla o enlaces a las demos en vivo, así como el código fuente correspondiente.
+In this repository, you'll find an organized structure of files and folders that represent each project in my portfolio. Each project includes a concise description, screenshots or links to live demos, as well as the corresponding source code.
 
-Los proyectos en mi portafolio hacen uso de diversas tecnologías y herramientas, incluyendo:
+The projects in my portfolio make use of various technologies and tools, including:
 
-- HTML5 y CSS3 para la estructura y estilización de las páginas.
+HTML5 and CSS3 for the structure and styling of the pages.
 
+JavaScript for interactivity and dynamic functionality on the client.
 
+jQuery to simplify event handling and DOM manipulation.
 
-- JavaScript para la interactividad y funcionalidad dinámica en el cliente.
-  
+PHP for server-side programming and connecting to databases.
 
-- jQuery para simplificar el manejo de eventos y la manipulación del DOM.
+MySQL as a relational database management system.
 
-- PHP para la programación del lado del servidor y la conexión con bases de datos.
+Bootstrap for fast and responsive interface development.
 
+XAMPP to set up a local server and test projects locally.
 
-- MySQL como sistema de gestión de bases de datos relacionales.
+My goal in sharing my portfolio on GitHub is to provide visitors with a clear and comprehensive view of my work, as well as invite collaboration and receive constructive feedback to improve my skills and projects.
 
-
-- Bootstrap para el desarrollo rápido y responsivo de interfaces.
-
-- XAMPP para configurar un servidor local y probar los proyectos de forma local.
-
-Mi objetivo al compartir mi portafolio en GitHub es proporcionar a los visitantes una visión clara y completa de mi trabajo, así como invitar a la colaboración y recibir comentarios constructivos para mejorar mis habilidades y proyectos.
-
-Siéntete libre de explorar mi portafolio y descubrir los diversos proyectos que he realizado. Si tienes alguna pregunta, sugerencia o interés en colaborar, ¡no dudes en contactarme!
+Feel free to explore my portfolio and discover the various projects I have done. If you have any questions, suggestions or interest in collaborating, do not hesitate to contact me!

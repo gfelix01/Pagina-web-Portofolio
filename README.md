@@ -8,10 +8,11 @@ En este repositorio, encontrarás una estructura organizada de archivos y carpet
 Los proyectos en mi portafolio hacen uso de diversas tecnologías y herramientas, incluyendo:
 
 - HTML5 y CSS3 para la estructura y estilización de las páginas.
-- ![W3C Validation](https://img.shields.io/w3c-validation/:parser)
+<img alt="W3C Validation" src="https://img.shields.io/w3c-validation/:parser">
+
 
 - JavaScript para la interactividad y funcionalidad dinámica en el cliente.
-- ![Bitbucket Pipelines](https://img.shields.io/bitbucket/pipelines/:user/:repo/:branch)
+  
 
 - jQuery para simplificar el manejo de eventos y la manipulación del DOM.
 - ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/:period/:user/:repo)

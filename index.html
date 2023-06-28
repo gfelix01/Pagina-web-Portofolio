@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-*********" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-
+  <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css">    
 </head>
 <body>
   <header>
@@ -65,6 +65,106 @@
       <input type="submit" value="Enviar" id="submitButton">
     </form>
   </section>
+  <tui-app-bar>
+    <button
+        tuiAppBarBack
+        tuiSlot="left"
+    >
+        Back
+    </button>
+    Taiga UI
+</tui-app-bar>
+
+<tui-app-bar>
+    <a
+        tuiAppBarBack
+        tuiSlot="left"
+        title="Back"
+    ></a>
+    Long title that gets overflown
+</tui-app-bar>
+
+<tui-app-bar class="color">
+    Long title that gets overflown
+    <a
+        tuiButton
+        tuiSlot="right"
+    >
+        Long action
+    </a>
+</tui-app-bar>
+
+<tui-app-bar class="color">
+    Taiga UI
+    <a
+        tuiIconButton
+        tuiSlot="right"
+        icon="tuiIconUserLarge"
+        title="User"
+    ></a>
+    <button  
+        tuiIconButton
+        tuiSlot="right"
+        icon="tuiIconSettingsLarge"
+        title="Settings"
+    ></button>
+</tui-app-bar>
+
+<tui-app-bar>
+    <button
+        tuiIconButton
+        tuiSlot="left"
+        icon="tuiIconMenuLarge"
+        title="Menu"
+    ></button>
+    <label
+        tuiLabel="AppBar"
+        class="reversed"
+    >
+        Taiga UI
+    </label>
+</tui-app-bar>
+
+<tui-app-bar>
+    <progress
+        tuiProgressBar
+        size="s"
+        class="bar"
+        [value]="35"
+        [max]="100"
+    ></progress>
+</tui-app-bar>
+
+<tui-app-bar class="color gray">
+    <button
+        tuiButton
+        tuiSlot="left"
+    >
+        Cancel
+    </button>
+    <label tuiLabel="More interesting title">Taiga UI</label>
+    <button
+        tuiButton
+        tuiSlot="right"
+    >
+        Accept
+    </button>
+</tui-app-bar>
+
+<tui-app-bar class="black">
+    <button
+        tuiButton
+        tuiSlot="left"
+    >
+        Cancel
+    </button>
+    <span class="white">Taiga UI</span>
+    <button
+        tuiIconButton
+        icon="tuiIconSettingsLarge"
+        tuiSlot="right"
+    ></button>
+</tui-app-bar>
 
   <footer>
     <p>&copy; <?php echo date("Y"); ?> Gabriel_Felix. Todos los derechos reservados.</p>

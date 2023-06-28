@@ -13,6 +13,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   $headers = "From: $nombre <$correo>";
 
+  ini_set('SMTP', 'smtp.live.com');
+  ini_set('smtp_port', 465);
+
+
   if (mail($destinatario, $asunto, $contenido, $headers)) {
     echo "¡Gracias por tu mensaje! Pronto te contactaré.";
   } else {

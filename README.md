@@ -1,26 +1,26 @@
-# Briefcase
-Repository Description: My Portfolio
+# Maletín
+Descripción del repositorio: Mi cartera
 
-This repository houses my personal portfolio, a collection of my most outstanding works and projects in the field of web development. The portfolio has been carefully designed to highlight my skills, experience and creativity.
+Este repositorio alberga mi portafolio personal, una colección de mis trabajos y proyectos más destacados en el campo del desarrollo web. El portafolio ha sido cuidadosamente diseñado para resaltar mis habilidades, experiencia y creatividad.
 
-In this repository, you'll find an organized structure of files and folders that represent each project in my portfolio. Each project includes a concise description, screenshots or links to live demos, as well as the corresponding source code.
+En este repositorio encontrarás una estructura organizada de archivos y carpetas que representan cada proyecto de mi portafolio. Cada proyecto incluye una descripción concisa, capturas de pantalla o enlaces a demostraciones en vivo, así como el código fuente correspondiente.
 
-The projects in my portfolio make use of various technologies and tools, including:
+Los proyectos en mi cartera hacen uso de varias tecnologías y herramientas, que incluyen:
 
-HTML5 and CSS3 for the structure and styling of the pages.
+HTML5 y CSS3 para la estructura y estilo de las páginas.
 
-JavaScript for interactivity and dynamic functionality on the client.
+JavaScript para interactividad y funcionalidad dinámica en el cliente.
 
-jQuery to simplify event handling and DOM manipulation.
+jQuery para simplificar el manejo de eventos y la manipulación DOM.
 
-PHP for server-side programming and connecting to databases.
+PHP para programación del lado del servidor y conexión a bases de datos.
 
-MySQL as a relational database management system.
+MySQL como sistema de gestión de bases de datos relacionales.
 
-Bootstrap for fast and responsive interface development.
+Bootstrap para un desarrollo frontend rápido y receptivo.
 
-XAMPP to set up a local server and test projects locally.
+XAMPP para configurar un servidor local y probar proyectos localmente.
 
-My goal in sharing my portfolio on GitHub is to provide visitors with a clear and comprehensive view of my work, as well as invite collaboration and receive constructive feedback to improve my skills and projects.
+Mi objetivo al compartir mi cartera en GitHub es brindar a los visitantes una visión clara y completa de mi trabajo, así como invitar a la colaboración y comentarios constructivos para mejorar mis habilidades y proyectos.
 
-Feel free to explore my portfolio and discover the various projects I have done. If you have any questions, suggestions or interest in collaborating, do not hesitate to contact me!
+Siéntase libre de explorar mi cartera y descubrir los diversos proyectos que he realizado. Si tienes alguna duda, sugerencia o interés en colaborar, ¡no dudes en contactar conmigo!

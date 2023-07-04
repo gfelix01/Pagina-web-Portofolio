@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
     // Realizar la solicitud AJAX
-    fetch("<?php echo $_SERVER['PHP_SELF']; ?>", {
+    fetch("http://localhost/PORTAFOLIO/index.html", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

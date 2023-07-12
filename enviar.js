@@ -1,23 +1,24 @@
 document.addEventListener("DOMContentLoaded", function() {
   var submitButton = document.getElementById("submitButton");
-
-  submitButton.addEventListener("click", function(event) {
-    event.preventDefault(); // Evitar el envío predeterminado del formulario
-
-    // Obtener los valores del formulario
-    var nombre = document.getElementById("nombre").value;
+   submitButton.addEventListener("click", function(event) {
+    event.preventDefault();
+     var nombre = document.getElementById("nombre").value;
     var correo = document.getElementById("correo").value;
     var mensaje = document.getElementById("mensaje").value;
-
-    // Crear objeto de datos
-    var data = {
+     if (nombre.trim() === "" || correo.trim() === "" || mensaje.trim() === "") {
+      alert("Por favor, complete todos los campos del formulario");
+      return;
+    }
+     if (!isValidEmail(correo)) {
+      alert("Por favor, ingrese un correo electrónico válido");
+      return;
+    }
+     var data = {
       nombre: nombre,
       correo: correo,
       mensaje: mensaje
     };
-
-    // Realizar la solicitud AJAX
-    fetch("http://localhost/PORTAFOLIO/index.html", {
+     fetch("https://localhost/PORTAFOLIO/index.html", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -26,14 +27,13 @@ document.addEventListener("DOMContentLoaded", function() {
     })
       .then(function(response) {
         if (response.ok) {
-          return response.text(); // Devuelve la respuesta como texto
+          return response.text();
         } else {
           throw new Error("Error en la respuesta del servidor");
         }
       })
       .then(function(message) {
-        alert(message); // Muestra el mensaje de éxito enviado desde el servidor
-        // Restablecer los campos del formulario después de enviarlos con éxito
+        alert(message);
         document.getElementById("nombre").value = "";
         document.getElementById("correo").value = "";
         document.getElementById("mensaje").value = "";
@@ -42,7 +42,10 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Ha ocurrido un error en la solicitud AJAX: " + error.message);
       });
   });
-
-  var descripcion = document.getElementById('descripcion');
-  descripcion.style.opacity = '1'; // Cambia la opacidad a 1
+   var descripcion = document.getElementById('descripcion');
+  descripcion.style.opacity = '1';
 });
+ function isValidEmail(email) {
+  // Validación de correo electrónico
+  // Implementar lógica de validación de correo electrónico aquí
+}

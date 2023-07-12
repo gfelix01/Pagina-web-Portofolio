@@ -1,9 +1,8 @@
 /* Estilos globales */
 body {
-  background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 }
 
 /* Encabezado */
@@ -129,6 +128,17 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+}
+
+/* Animaciones */
+.sobre-mi {
+  -webkit-animation: bounce-top 0.9s both;
+  animation: bounce-top 0.9s both;
+}
+
+.wobble-hor-bottom {
+  -webkit-animation: wobble-hor-bottom 0.8s both;
+  animation: wobble-hor-bottom 0.8s both;
 }
 
 /* Estilos para el carrusel de imágenes */

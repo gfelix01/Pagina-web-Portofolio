@@ -15,45 +15,45 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#sobre-mi">Sobre mi</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#sobre-mi" class="sobre-mi">Sobre mi</a></li>
+        <li><a href="#proyectos" class="wobble-hor-bottom">Proyectos</a></li>
+        <li><a href="#contacto" class="bounce-top">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="sobre-mi">
-    <h2>Gabriel_Felix</h2>
-    <img src="fotos/yo.jpg" width="50%" alt="Foto de perfil">
-    <p>Hola, soy Gabriel, un apasionado desarrollador web con experiencia en HTML, CSS, JavaScript, PHP y MySQL. Me encanta trabajar en equipo y aprender cosas nuevas cada día. Si tienes un proyecto interesante, ¡no dudes en contactarme!</p>
+  <section id="sobre-mi" class="sobre-mi">
+    <h2 class="bounce-top">Gabriel_Felix</h2>
+    <img src="fotos/yo.jpg" width="50%" alt="Foto de perfil" class="bounce-top">
+    <p class="bounce-top">Hola, soy Gabriel, un apasionado desarrollador web con experiencia en HTML, CSS, JavaScript, PHP y MySQL. Me encanta trabajar en equipo y aprender cosas nuevas cada día. Si tienes un proyecto interesante, ¡no dudes en contactarme!</p>
   </section>
 
   <section id="proyectos">
-    <h2>Proyectos</h2>
+    <h2 class="bounce-top">Proyectos</h2>
     <ul>
-      <li>
+      <li class="bounce-top">
         <h3>Login</h3>
-        <img src="fotos/login.png" width="50%" alt="Proyecto 1">
+        <img src="fotos/login.png" width="40%" alt="Proyecto 1">
         <p>Login utilizando HTML, CSS, JavaScript y Bootstrap. Proporciona un formulario de inicio de sesión con validación de usuario y contraseña.</p>
         <a href="https://github.com/gfelix01/Login--Forms">Link del repositorio</a>
       </li>
-      <li>
+      <li class="bounce-top">
         <h3>Página de Documentación Java</h3>
         <img src="fotos/proyecto Documentacion Java.png" width="50%" alt="Proyecto 2">
         <p>Página de documentación sobre el lenguaje de programación Java.</p>
         <a href="https://github.com/gfelix01/Documentation-page">Link del repositorio</a>
       </li>
-      <li>
+      <li class="bounce-top">
         <h3>Sistema de Asistencia C#</h3>
         <img src="fotos/sistema de asistencia.png" width="50%" alt="Proyecto 3">
         <img src="fotos/personal.png" width="50%" alt="Proyecto 3">
-        <p>Proyecto para gestión de clientes multicapas  en C#.</p>
+        <p>Proyecto para gestión de clientes multicapas en C#.</p>
         <a href="https://github.com/gfelix01/Sistema-asistencia">Link del repositorio</a>
       </li>
     </ul>
   </section>
 
-  <section id="contacto">
+  <section id="contacto" class="bounce-top">
     <h2>Contacto</h2>
     <form id="contactForm" action="enviar.php" method="POST">
       <label for="nombre">Nombre:</label>
@@ -65,11 +65,9 @@
       <label for="mensaje">Mensaje:</label>
       <textarea id="mensaje" name="mensaje" required></textarea>
 
-      <input type="submit" value="Enviar" id="submitButton">
+      <input type="submit" value="Enviar" id="submitButton" class="bounce-top">
     </form>
-  
-</div>
-
+  </section>
 
   <footer>
     <p>&copy; <?php echo date("Y"); ?> Gabriel_Felix. Todos los derechos reservados.</p>
